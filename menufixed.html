@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Menu Fixed</title>
+    <style>
+        body::-webkit-scrollbar {
+            margin: 0;
+            padding: 0;
+            display: none;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .menu {
+            top: 0;
+            position: fixed;
+            width: 100%;
+            background-color: black;
+
+        }
+
+        .menu a {
+            text-decoration: none;
+            display: block;
+            color: white;
+            padding: 13px 15px;
+            float: left;
+            font-size: 15px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 100ms;
+        }
+
+        .menu a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .contenido {
+            height: 20px;
+            margin-top: 25px;
+            padding: 50px;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 1em;
+        }
+
+        .contenido>div {
+
+            background-color: black;
+            padding: 1em;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        #cuadro {
+            position: fixed;
+            z-index: 2;
+            left: 60%;
+            top: 30%;
+            background-color: black;
+            width: 30%;
+            height: 20vh;
+            color: white;
+            font-size: 30px;
+            align-content: center;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <a href="">Inicio</a>
+        <a href="">Ofertas</a>
+        <a href="">Rutas</a>
+        <a href="">Blog</a>
+    </div>
+
+
+    <div id="cuadro">
+        <p onclick="alert('ESTO ES JAVASCRIPT')" onmouseover=this.innerHTML='FRIENDS'
+            onmouseout=this.innerHTML='AMIGOS'>asdasd</p>
+    </div>
+
+    <div class="contenido">
+
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+
+                <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+                <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque maxime dolores tempora repellat,
+                recusandae reiciendis dolorum quod error, neque debitis accusantium non architecto voluptatum omnis
+                excepturi deserunt magnam. Perspiciatis, ducimus.</p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
